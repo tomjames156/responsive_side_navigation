@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.side-nav{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: black;
+    width: 0; 
+    /* display: none; */
+    overflow-x: hidden;
+    height: 100%;
+    padding: 45px 0 0 0;
+    /* transition: all ease 0.5s; */
+}
+
+/* .show a{
+    animation: showLinks 1s ease-in;
+}
+
+@keyframes showLinks{
+    from{color: transparent;}
+    to{color: rgb(163, 162, 162);}    
+}
+
+
+.show{
+    animation: showSideBar 1s ease;
+}
+
+@keyframes showSideBar{
+    from{width: 0;}
+    to{width: 17vw;}
+}
+
+.hide{
+    animation: hideSideBar 0.5s ease-in;
+    background: transparent;
+}
+
+@keyframes hideSideBar{
+    from{
+        width: 17vw;
+        background: black;
+    }
+    to{
+        width: 0;
+        background: transparent;
+    }
+}
+
+.hide a{
+    animation: hideLinks 0.5s ease;
+    color: transparent;
+}
+
+@keyframes hideLinks{
+    from{color: rgb(163, 162, 162);}
+    to{color: transparent;}
+} */
+
+a{
+    display: block;
+    color: rgb(163, 162, 162);
+    text-decoration: none;
+    padding: 15px 0 15px 30px;
+    font-size: 2em;
+    transition: 0.3s;
+}
+
+.side-nav i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(163, 162, 162);
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.side-nav i:hover, a:hover{
+    color: white;
+    transition: all ease 0.4s;
+}
+
+.main{
+    width: 95%;
+    margin: 20px auto;
+}
+
+#open{
+    font-size: 0.95em;
+    background: gainsboro;
+    border: solid 1px gray;
+    margin: 10px 0; 
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+#open i{
+    margin-right: 10px;
+}

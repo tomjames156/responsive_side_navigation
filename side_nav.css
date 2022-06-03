@@ -14,57 +14,16 @@ body{
     z-index: 1;
     background: black;
     width: 0; 
-    /* display: none; */
     overflow-x: hidden;
     height: 100%;
     padding: 45px 0 0 0;
-    /* transition: all ease 0.5s; */
-}
-
-/* .show a{
-    animation: showLinks 1s ease-in;
+    transition: all ease 0.5s;
 }
 
 @keyframes showLinks{
     from{color: transparent;}
     to{color: rgb(163, 162, 162);}    
 }
-
-
-.show{
-    animation: showSideBar 1s ease;
-}
-
-@keyframes showSideBar{
-    from{width: 0;}
-    to{width: 17vw;}
-}
-
-.hide{
-    animation: hideSideBar 0.5s ease-in;
-    background: transparent;
-}
-
-@keyframes hideSideBar{
-    from{
-        width: 17vw;
-        background: black;
-    }
-    to{
-        width: 0;
-        background: transparent;
-    }
-}
-
-.hide a{
-    animation: hideLinks 0.5s ease;
-    color: transparent;
-}
-
-@keyframes hideLinks{
-    from{color: rgb(163, 162, 162);}
-    to{color: transparent;}
-} */
 
 a{
     display: block;

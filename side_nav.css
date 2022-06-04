@@ -20,11 +20,6 @@ body{
     transition: all ease 0.5s;
 }
 
-@keyframes showLinks{
-    from{color: transparent;}
-    to{color: rgb(163, 162, 162);}    
-}
-
 a{
     display: block;
     color: rgb(163, 162, 162);

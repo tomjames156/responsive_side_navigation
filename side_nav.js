@@ -2,11 +2,12 @@ const openBtn = document.getElementById("open");
 const closeBtn = document.getElementById("close");
 const sidebar = document.querySelector(".side-nav");
 const mainContent = document.querySelector(".main");
+// const links = document.getElementsByTagName("a");
 
 function showSideBar(){
-    sidebar.style.width = "100vw";
+    sidebar.style.height = "100%";    
 }
 
 function closeSideBar(){
-    sidebar.style.width = "0";
+    sidebar.style.height = "0%";
 }

@@ -45,6 +45,7 @@ a{
 
 .main{
     width: 95%;
+    height: 100vh;
     padding: 20px 40px;
     transition: all ease 0.31s;
 }
